@@ -40,6 +40,6 @@ def transverseImageAnnoDirectory(root, img_ext = ".bmp", anno_ext = ".json"):
 
     
 if __name__ == "__main__":
-    image_paths, annotations = transverseImageAnnoDirectory(r"\\10.6.88.17\data\kuwingto\SAEcustomData20200224\obj1")
+    image_paths, annotations = transverseImageAnnoDirectory(".")
     print(image_paths[0])
     print(annotations[0])
